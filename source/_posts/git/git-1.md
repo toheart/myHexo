@@ -3,6 +3,10 @@ title: git相关命令
 date: 2019-06-13 20:43:43
 tags:
  - git
+
+categories:
+ - 开发
+ - git
 ---
 
 ## git基础命令

@@ -17,15 +17,16 @@
 
 # Main menu navigation
 menu:
-  Home: /
-  Archives: /archives
-  Tags: /tags
-  Categories: /categories
-  #XXX: /xxx
+  主页: /
+  文章: /archives
+  标签: /tags
+  分类: /categories
+  简历: /abouts
+ 
 
 # Favicon
 # ---------------
-favicon: /melody-favicon.ico
+favicon: /assets/T.png
 
 # PWA
 # See https://github.com/JLHwung/hexo-offline
@@ -127,7 +128,7 @@ cdn:
 
 # Post info settings
 # ---------------
-avatar:
+avatar: /assets/photo.png
 
 top_img: true # false or url of img
 
@@ -150,9 +151,9 @@ post_copyright:
   license_url: https://creativecommons.org/licenses/by-nc-sa/4.0/
 
 # Please see doc for more details: https://molunerfinn.com/hexo-theme-melody-doc/#/theme-config?id=auto-excerpt
-# auto_excerpt:
-#   enable: false
-#   length: 150
+auto_excerpt:
+   enable: true
+   length: 150
 
 # slide
 # For reveal.js config, see https://github.com/hakimel/reveal.js#configuration
@@ -170,10 +171,10 @@ slide:
   parallaxBackgroundHorizontal: null
   parallaxBackgroundVertical: null
 
-# QR_code:
-# - itemlist:
-#     img:
-#     text:
+QR_code:
+  - itemlist:
+     img: /assets/picture/qc_code.png
+     text: 打赏一下
 
 # adv:
 # enable: false
@@ -230,7 +231,7 @@ disqus:
 
 # Footer Settings
 # ---------------
-since: 2013
+since: 2019
 
 # footer_custom_text:
 
@@ -241,7 +242,7 @@ ICP:
 # busuanzi count for PV / UV in site
 busuanzi:
   # count values only if the other configs are false
-  enable: true
+  enable: false
   # custom uv span for the whole site
   site_uv: true
   site_uv_header: <i class="fa fa-user"></i>
@@ -249,7 +250,7 @@ busuanzi:
   # custom pv span for the whole site
   site_pv: true
   site_pv_header: <i class="fa fa-eye"></i>
-  site_pv_footer:
+  site_pv_footer: 
   # custom pv span for one page only
   page_pv: true
   page_pv_header: <i class="fa fa-file"></i>

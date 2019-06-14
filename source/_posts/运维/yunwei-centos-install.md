@@ -1,11 +1,15 @@
 ---
-title: yunwei/centos_install
+title: centos上安装python环境
 date: 2019-06-13 20:47:16
 tags:
  - centos
  - python
  - mysql
  - nginx
+
+categories:
+ - 运维
+ - centos
 ---
 
 
